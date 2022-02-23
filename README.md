@@ -64,3 +64,10 @@ sudo ufw allow ssh
 ![image](https://user-images.githubusercontent.com/41922095/155372942-61c04fc1-e450-44c0-857f-88bdc577f34e.png)
 
 ### Рисунок 2 - настройка статического IP-адреса.
+
+После настройки сатического IP-адреса выполним тестовое подключение. Подключение с компьютера осуществляется с помощью расширения Secure Shell для браузера Google Chrome.
+
+
+![image](https://user-images.githubusercontent.com/41922095/155374511-1ab0967f-2965-4e72-a140-0b68af2057db.png)
+
+### Рисунок 3 - удалённое подключение к серверу.
