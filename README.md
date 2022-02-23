@@ -63,4 +63,4 @@ sudo ufw allow ssh
 
 ![image](https://user-images.githubusercontent.com/41922095/155372942-61c04fc1-e450-44c0-857f-88bdc577f34e.png)
 
-### Рисунок 3 - настройка статического IP-адреса.
+### Рисунок 2 - настройка статического IP-адреса.
