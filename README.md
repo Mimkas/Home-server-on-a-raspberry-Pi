@@ -146,5 +146,45 @@ C помощью предоставленных в конце установки
 
 ### Рисунок 10 - выбор драйвера.
 
+Последним пакетом, установленным на домашний сервер будет Home Assistant. Данный пакет позволяет организовать сервер умного дома.
+В первую очередь для установки Home assistant потребуется загрузить систему контейнерной оркестрации Docker, для этого выполним команды:
+
+#### curl -fsSL https://get.docker.com -o get-docker.sh
+#### sudo sh get-docker.sh
 
 
+![2021-09-26_18-04-47](https://user-images.githubusercontent.com/41922095/161393734-87bb8121-854d-4437-9a4c-22068a0d701c.png)
+
+### Рисунок 11 - установка Docker.
+
+
+![2021-09-26_18-05-22](https://user-images.githubusercontent.com/41922095/161393819-0a21cdfb-9b2f-49c7-8d90-ad589a682f46.png)
+
+### Рисунок 12 - запуск скрипта
+
+Установим отсутствующие пакеты:
+
+#### sudo apt install jq 
+
+
+![2021-09-26_18-11-24](https://user-images.githubusercontent.com/41922095/161394221-f91d2a2b-0fe1-4c3f-b85c-c62f698f3c59.png)
+
+### Рисунок 12 - установка пакета jq.
+
+Теперь нужно установить сам Home Assistant, для этого вводим команду:
+
+#### curl -Lo installer.sh https://raw.githubusercontent.com/home-assistant/supervised-installer/master/installer.sh
+
+
+![2021-09-26_18-14-50](https://user-images.githubusercontent.com/41922095/161394377-9d8e4dd1-5ea1-4fec-88a1-a3209a5bcce0.png)
+
+### Рисунок 13 - установка пакета Home Assistant
+
+Запустим установленный компонент:
+
+#### bash installer.sh —machine raspberrypi4-64
+
+
+![2021-09-26_18-16-04](https://user-images.githubusercontent.com/41922095/161394443-05c76a24-52d5-4e1c-b9f5-473717562afd.png)
+
+### Рисунок 14 - запуск скрипта
