@@ -235,6 +235,8 @@ C помощью предоставленных в конце установки
 
 ![image](https://user-images.githubusercontent.com/41922095/161397574-3e19a75f-6b7a-4b53-b379-a0f3f1e01591.png)
 
+### Рисунок 21 - добавление карточки
+
 Чтобы не получить ошибку “Custom element doesn’t exist: vacuum-card”, прописываем в configuration.yaml после mode: yaml указал путь до карточки и перезагружаем Home Assistant:
 
 #### lovelace:
@@ -248,4 +250,4 @@ C помощью предоставленных в конце установки
 
 ![image](https://user-images.githubusercontent.com/41922095/161397688-ea8d5943-1b3f-4bad-a1b1-f726dedf144a.png)
 
-### Рисунок 21 - карточка объекта
+### Рисунок 22 - карточка объекта
